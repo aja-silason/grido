@@ -1,0 +1,21 @@
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+}
+
+menu{
+  Home
+  Pages 
+  Blog 
+  Portfolio
+  Shop
+  Contacts
+}

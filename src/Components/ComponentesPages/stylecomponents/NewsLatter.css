@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+    --corfundogray: rgba(179, 179, 179, 0.2);
+}
+.newsconteiner{
+    background-image: url(../../../Assets/mulhernocomputador.webp);
+    background-size: cover;
+}
+.newsconteiner{
+    height: 0%;
+}
+.newsconteiner div.backcolor{
+    background-color: var(--corfundogray);
+    height: 60vh;
+}
+.newsconteiner .backcolor div{
+    padding-top: 150px;
+    margin-left: 100px;
+}
+.newsconteiner input{
+    background: none;
+    border: none;
+    padding: 20px 0px 20px 0px;
+    width: 80%;
+    color: var(--corletrabranca);
+}
+.newsconteiner input::selection{
+    background-color: var(--corbotao);
+}
+.newsconteiner hr{
+    color: var(--corletrabranca);
+}
+.newsconteiner button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+h1{
+    color: var(--corletrabranca);
+    margin-bottom: 25px;
+}

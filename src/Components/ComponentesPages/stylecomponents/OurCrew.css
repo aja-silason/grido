@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+    --corfundogray: rgba(179, 179, 179, 0.2);
+}
+.aboutConteinerOur{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corfundovermelho);
+    height: 100%;
+    padding: 40px 0px 80px 0px;
+    color: var(--corletrabranca);
+}
+.aboutConteinerOur div.backcolor{
+    width: 70%;
+}
+.emlinha{
+    display: flex;
+    align-items: center;
+}
+.aboutConteinerOur hr{
+    position: relative;
+    margin-left: -250px;
+}
+.btnviweall{
+    background-color: var(--corcopyright);
+    color: var(--corletrabranca);
+    padding: 10px 20px;
+    margin-top: -20px;
+    margin-left: 55%;
+    cursor: pointer;
+}
+.cardsOur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardsinside .cardimg1, .cardimg2, .cardimg3{
+    height: 250px;
+    margin-bottom: 20px;
+}
+.cardimg1{
+    background-image: url(../../../Assets/fototipopasse.jpg);
+    background-size: cover;
+}
+.cardimg2{
+    background-image: url(../../../Assets/fotopp.webp);
+    background-size: cover;
+}
+.cardimg3{
+    background-image: url(../../../Assets/mulhernocomputador.webp);
+    background-size: cover;
+}
+.cardsinside{
+    text-align: center;
+    color: var(--corletrabranca);
+    width: 25%;
+    margin: 40px 20px 0px 20px;
+}

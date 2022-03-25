@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+    --corfundogray: rgba(179, 179, 179, 0.2);
+}
+.aboutCompanyConteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCompanyConteiner .company1{
+    height: 50vh;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.aboutCompanyConteiner .company1 .companyinside .card{
+    background-image: url(../../../Assets/mulhernegra.webp);
+    height: 115%;
+    background-size: cover;
+}
+.aboutCompanyConteiner .company1 .companyinside .card .bola{
+    background-color: var(--corbotao);
+    height: 200px;
+    margin-top: 146px;
+    margin-left: 0;
+    position: absolute;
+    opacity: 0.7;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 0px;
+    width: 190px;
+}
+.aboutCompanyConteiner .company1 .companyinside{
+    width: 400px;
+    margin: 20px;
+}
+.aboutCompanyConteiner .company1 .companyinside h2{
+    font-size: 21pt;
+}
+.aboutCompanyConteiner .company1 .companyinside p{
+    margin: 20px 5px;
+    text-align: justify;
+}
+.companyinside .companyinsidebaixo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.companyinside .companyinsidebaixo div{
+    margin: 0px 25px 0px 10px;
+}
+.companyinside .companyinsidebaixo .phones{
+    display: flex;
+    flex-direction: column;
+}
+.companyinside .companyinsidebaixo .socialinside li{
+    display: flex;
+}
+.companyinside .companyinsidebaixo .socialinside div{
+    display: flex;
+}
+.companyinside .companyinsidebaixo .socialinside div li{
+    margin-left: 5px;
+    font-weight: bold;
+}
+.aboutCompanyConteiner .company2{
+    display: flex;
+}
+.aboutCompanyConteiner .company2 .company2inside{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCompanyConteiner .company2 .company2inside h1{
+    font-size: 40pt;
+}

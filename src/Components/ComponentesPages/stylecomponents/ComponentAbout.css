@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+    --corfundogray: rgba(179, 179, 179, 0.2);
+}
+.aboutConteiner{
+    background-image: url(../../../Assets/mulherjeans.png);
+    background-size: cover;
+}
+.aboutConteiner{
+    height: 45vh;
+}
+.aboutConteiner div.backcolor{
+    background-color: var(--corfundogray);
+    height: 45vh;
+}
+.aboutConteiner .backcolor div{
+    padding-top: 150px;
+    margin-left: 100px;
+}
+h1{
+    color: var(--corletrabranca);
+    margin-bottom: 25px;
+}

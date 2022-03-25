@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+:root{
+    --cormenu: #ffffff;
+    --corbotao: #fb452d;
+    --corletrapreta: #2c2c2c;
+    --corletrabranca: #f9f9fb;
+    --corletravermelha: #e1563f;
+    --corfundobranco: #ffffff;
+    --corfundovermelho: #fa4729;
+    --corfundomeiorosa: #faf5f1;
+    --corfooter: #151515;
+    --corcopyright: #000000;
+    --corfundogray: rgba(179, 179, 179, 0.2);
+}
+.whatConteiner{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--corfundomeiorosa);
+    height: 100%;
+    padding: 40px 0px 80px 0px;
+    color: var(--corletrapreta);
+}
+.whatConteiner div.backcolor{
+    width: 100%;
+}
+.whatConteiner .cardsWhat{
+    overflow-x: hidden;
+    overflow: scroll;
+    display: flex;
+}
+.whatConteiner div.backcolor ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.whatConteiner div.backcolor h1{
+    color: var(--corletrapreta);
+    margin: 10px 0px 10px 0px;
+}
+.whatConteiner .cardsWhat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whatConteiner .cardsinside{
+    text-align: justify;
+    padding: 25px;
+}
+.whatConteiner .cardsinside .cardUser{
+    display: flex;
+}
+.whatConteiner .cardsinside .cardUser div{
+    margin: 10px;
+}
+.whatConteiner .cardsinside .cardUser{
+    margin-top: 20px;
+    width: 250px;
+}
+.whatConteiner .cardsinside .cardUser img{
+    margin: 10px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../../../Assets/fotopp.webp);
+    background-size: cover;
+}
+.whatConteiner .cardsinside .cardimg1, .cardimg2, .cardimg3{
+    height: 250px;
+    margin-bottom: 20px;
+}
+.whatConteiner .cardsinside{
+    background-color: var(--corfundobranco);
+    box-shadow: 1px 1px 10px var(--corfundogray);
+    border-radius: 5px;
+}
+.whatConteiner .cardsinside{
+    color: var(--corletrapreta);
+    width: 100%;
+    margin: 40px 20px 0px 20px;
+}
