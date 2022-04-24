@@ -24,7 +24,7 @@ export default function AboutCompany(){
                                 <span>+1 600 123 456 789</span>
                                 <span>+1 800 321 654 987</span>
                             </div>
-
+ 
                             <div className='socialinside'>
                                 <p>IN SOCIAL</p>
                                 <div>

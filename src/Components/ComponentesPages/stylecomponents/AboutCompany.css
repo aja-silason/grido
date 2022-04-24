@@ -34,7 +34,7 @@
 }
 .aboutCompanyConteiner .company1 .companyinside .card .bola{
     background-color: var(--corbotao);
-    height: 200px;
+    height: 28%;
     margin-top: 146px;
     margin-left: 0;
     position: absolute;
@@ -65,7 +65,7 @@
 .companyinside .companyinsidebaixo .phones{
     display: flex;
     flex-direction: column;
-}
+} 
 .companyinside .companyinsidebaixo .socialinside li{
     display: flex;
 }

@@ -37,13 +37,17 @@
     position: relative;
     margin-left: -250px;
 }
-.btnviweall{
+.btnviewall{
     background-color: var(--corcopyright);
     color: var(--corletrabranca);
     padding: 10px 20px;
     margin-top: -20px;
-    margin-left: 55%;
+    margin-left: 50%;
     cursor: pointer;
+}
+.btnviewall a{
+    color: var(--corletrabranca);
+    text-decoration: none;
 }
 .cardsOur{
     display: flex;

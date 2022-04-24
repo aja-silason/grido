@@ -11,11 +11,11 @@ export default function OurCrew(){
                             <li>* SKILLED TEAM</li>
                             <li className='emlinha'>
                                 <li><h1>Our Crew of Experts</h1></li>
-                                <li className='btnviweall'>View All</li>
+                                <li className='btnviewall'><a href='pages'>View All</a></li>
                             </li>
                             <hr/>
                         </ul>
-
+ 
                         <div className='cardsOur'>
                             <div className='cardsinside'>
                                 <div className='cardimg1'></div>
