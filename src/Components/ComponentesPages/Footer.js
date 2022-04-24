@@ -53,7 +53,7 @@ export default function Footer(){
 
                 <div className='company2'>
                     <div>
-                        <p> * COPYRIGHT &copy; 2022 GRIDO BY WEGENUNIUSLAB. ALL RIGHT RESERVED * COPYRIGHT &copy; 2022 GRIDO BY WEGENUNIUSLAB. ALL RIGHT RESERVED *</p>
+                        <p> * COPYRIGHT &copy; 2022 GRIDO BY ANANIAS AUGUSTO. ALL RIGHT RESERVED * COPYRIGHT &copy; 2022 GRIDO BY ANANIA AUGUSTO. ALL RIGHT RESERVED *</p>
 
                     </div>
                 </div>
